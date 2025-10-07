@@ -1,1 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 2rem; line-height: 1.6; }
+    header { max-width: 880px; margin: 0 auto 2rem; }
+    .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); }
+    .card { border: 1px solid #e5e5e5; border-radius: 12px; padding: 1rem; }
+    .card h3 { margin: 0 0 .5rem; }
+    a { text-decoration: none; }
+    .tags { font-size: .9rem; opacity: .75; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Short tagline — Data/ML · Python · Visualization</p>
+    <p>
+      <a href="https://github.com/YOUR-USERNAME">GitHub</a> ·
+      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a> ·
+      <a href="mailto:you@example.com">Email</a>
+    </p>
+  </header>
 
+  <section class="grid">
+    <article class="card">
+      <h3><a href="https://github.com/YOUR-USERNAME/financial-wellbeing">Financial Well-Being Predictor</a></h3>
+      <p>Predict FWB score and explain drivers with SHAP; includes EDA, modeling, and a clean report.</p>
+      <p class="tags">Python · scikit-learn · XGBoost · SHAP</p>
+    </article>
+
+    <article class="card">
+      <h3><a href="https://github.com/YOUR-USERNAME/banking-anomaly-detection">Banking Anomaly Detection</a></h3>
+      <p>End-to-end pipeline with imbalance handling, PR-AUC, and threshold tuning.</p>
+      <p class="tags">Pandas · ML · PR-AUC</p>
+    </article>
+
+    <article class="card">
+      <h3><a href="resume.pdf">Résumé (PDF)</a></h3>
+      <p>One-page CV focused on data/ML roles.</p>
+      <p class="tags">PDF</p>
+    </article>
+  </section>
+</body>
+</html>
